@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LaunchTheme.v27">
+        <item name="android:navigationBarDividerColor">@color/primary</item>
+    </style>
+
+    <style name="NormalTheme.v27">
+        <item name="android:navigationBarDividerColor">@color/primary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+namespaces: true
+fallback_strategy: base_locale
+translation_class_visibility: public
+input_directory: i18n
+output_directory: lib/i18n
+output_file_name: i18n.g.dart
+output_format: multiple_files
+string_interpolation: double_braces
+key_case: camel
+key_map_case: camel
+param_case: camel
+flat_map: false

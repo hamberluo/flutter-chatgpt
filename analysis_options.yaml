@@ -1,0 +1,37 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
+# https://dart.dev/tools/linter-rules
+
+analyzer:
+  strong-mode:
+  exclude:
+    - build/**
+    - lib/**.g.dart
+    - lib/**.gen.dart
+    - lib/**.pb*.dart
+    - lib/**.freezed.dart
+    - lib/generated/**.dart
+    - lib/gen/**.dart
+  errors:
+    parameter_assignments: error
+
+linter:
+  rules:
+    public_member_api_docs: false
+    # StateFulWidget does not follow with this
+    library_private_types_in_public_api: false
+    sort_pub_dependencies: false
+    use_raw_strings: false
+    always_put_required_named_parameters_first: false
+    # Pedantic
+    unawaited_futures: false
+    deprecated_consistency: false
+    # Experimental
+    no_default_cases: false
+    lines_longer_than_80_chars: false
+    cascade_invocations: false
+    one_member_abstracts: false
+    use_build_context_synchronously: false
+    unnecessary_library_directive: false

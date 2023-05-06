@@ -1,0 +1,12 @@
+{
+    "@@locale": "en",
+    "hello": "Hello \uD83D\uDC4B",
+    "guide": "I’m Cogni.\nAs an AI language model, I can perform various tasks such as answering questions, generating text, translating languages, summarizing text, and more.",
+    "inputHint": "Type a message...",
+    "styleCreative": "Creative",
+    "styleBalance": "Balance",
+    "stylePrecise": "Precise",
+    "prompt1": "Explain quantum computing in simple terms",
+    "prompt2": "Got any creative ideas for a 10 year old's birthday?",
+    "prompt3": "How do I make an HTTP request in Javascript?"
+}

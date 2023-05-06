@@ -1,0 +1,23 @@
+targets:
+  $default:
+    builders:
+      go_router_builder:go_router_builder:
+        generate_for:
+          include:
+            - lib/**.r.*dart
+      copy_with_extension_gen:copy_with_extension_gen:
+        generate_for:
+          include:
+            - lib/**.c.*dart
+      freezed:freezed:
+        generate_for:
+          include:
+            - lib/**.f.*dart
+      json_serializable:json_serializable:
+        generate_for:
+          include:
+            - lib/**.f.*dart
+        options:
+          create_to_json: true
+          explicit_to_json: true
+          include_if_null: false
